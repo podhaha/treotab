@@ -38,6 +38,8 @@ echo 1/2
 wget -O win.iso "https://go.microsoft.com/fwlink/p/?LinkID=2195404&clcid=0x409&culture=en-us&country=US" 2>/dev/null
 echo 2/2
 qemu-img create -f raw win.img 128G
+echo IP:
+curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
 echo SUF Boot[CTRL+C TO CANCEL]
 chmod +x start
 echo "you can use ./start command to start after you use this command"

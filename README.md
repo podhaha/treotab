@@ -1,0 +1,2 @@
+'''
+sudo su && bash h

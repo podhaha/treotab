@@ -1,0 +1,2 @@
+sudo read -p "REGION_NGROK: " inpu
+sudo read -p "AUTHTOKEN_NGROK: " inp

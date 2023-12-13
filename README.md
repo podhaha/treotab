@@ -1,2 +1,2 @@
-'''
-sudo su && bash h
+
+######sudo su && bash h

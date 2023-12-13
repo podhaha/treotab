@@ -29,7 +29,7 @@ read -p "AUTHTOKEN_NGROK: " inp
 echo [         ]0/10
 sleep 3
 echo [#########]10/10
-nohup ./ngrok tcp 5900 --region $inpu &>/dev/null
+nohup ./ngrok tcp 5900 --region $inpu &2>/dev/null
 echo Download OS file
 wget -O bios64.bin "https://github.com/BlankOn/ovmf-blobs/raw/master/bios64.bin" 2>/dev/null
 wget -O win.iso "https://go.microsoft.com/fwlink/p/?LinkID=2195404&clcid=0x409&culture=en-us&country=US" 2>/dev/null

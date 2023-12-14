@@ -1,2 +1,2 @@
-sudo read -p "REGION_NGROK: " inpu
-sudo read -p "AUTHTOKEN_NGROK: " inp
+read -p "REGION_NGROK: " inp 
+read -p "AUTHTOKEN_NGROK: " inpu

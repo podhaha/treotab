@@ -1,5 +1,6 @@
 sudo pkill ngrok
 sudo pkill qemu
+./ngrok authtoken $inp
 sudo nohup ./ngrok tcp 5900 --region $inpu &>/dev/null &
 echo IP:
 sudo curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'

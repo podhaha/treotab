@@ -1,2 +1,2 @@
-read -p "REGION_NGROK: " inp 
-read -p "AUTHTOKEN_NGROK: " inpu
+read -p "REGION_NGROK: " inpu
+read -p "AUTHTOKEN_NGROK: " inp

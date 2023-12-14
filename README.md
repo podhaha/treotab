@@ -9,5 +9,5 @@ curl https://raw.githubusercontent.com/podhaha/treotab/main/h |bash
 |      Win         |    STATUS     |
 |-----------------:|---------------|
 |WINDOWS 11 NEXUS 1| USE! (DF WIN) |
-|                 2|               |
-|                 3|               |
+|  Coming soon    2|               |
+|  Coming soon    3|               |

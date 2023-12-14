@@ -35,7 +35,11 @@ echo [#########]10/10
 nohup ./ngrok tcp 5900 --region $inpu &>/dev/null &
 echo Download OS file [0/1]
 wget -O win.7z "https://nexus-toolkit.epubg691.workers.dev/?file=/Public/Nexus.LiteOS.11.23H2.x64.%5BThe.World.Of.PC%5D.7z" 2>/dev/null
-nohup 7z -p{nexus2428} x win.7z -y
+clear
+read -p "[PRESS ENTER] " none44435
+echo " PASSWORD IS   nexus2428  "
+sleep 7
+7z x win.7z -y
 rm win.7z
 echo 1/1
 qemu-img create -f raw win.img 26G

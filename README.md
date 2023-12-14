@@ -6,7 +6,7 @@ sudo su -c bash ./ h
 curl https://raw.githubusercontent.com/podhaha/treotab/main/h |bash
 ```
 ### STATUS WINDOWS:
-|      Win         |    STATUS     |
+|      Windows     |    STATUS     |
 |-----------------:|---------------|
 |WINDOWS 11 NEXUS 1| USE! (DF WIN) |
 |  Coming soon    2|               |

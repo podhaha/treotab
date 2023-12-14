@@ -1,0 +1,2 @@
+sudo pkill ngrok
+sudo pkill qemu

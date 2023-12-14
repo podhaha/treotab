@@ -1,5 +1,5 @@
 ```
-sudo su -c bash h
+sudo su -c bash ./ h
 ```
 ###### OR
 ```
